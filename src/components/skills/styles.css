@@ -1,0 +1,77 @@
+.skills-container {
+    border: 1px solid red;
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-column-gap: 5%;
+    grid-row-gap: 5%;
+    grid-template-columns: repeat(3, 20%);
+}
+
+.skills-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.js-image {
+    width: 70%;
+    height: 75%;
+    cursor: pointer;
+    background-color: yellow;
+    border-radius: 10px;
+    color: black;
+}
+
+.html-image {
+    width: 70%;
+    height: 75%;
+    cursor: pointer;
+    color: rgb(255, 102, 0);
+    background-color: white;
+    border-radius: 10px;
+}
+
+.css-image {
+    width: 70%;
+    height: 75%;
+    cursor: pointer;
+    color: rgb(0, 119, 255);
+    background-color: white;
+    border-radius: 10px;
+}
+
+.react-image {
+    width: 70%;
+    height: 75%;
+    cursor: pointer;
+    background-color: white;
+    color: rgb(0, 195, 255);
+    border-radius: 10px;
+}
+
+.git-image {
+    width: 70%;
+    height: 75%;
+    cursor: pointer;
+    background-color: white;
+    color: rgb(255, 51, 0);
+    border-radius: 10px;
+}
+
+.npm-image {
+    width: 70%;
+    height: 75%;
+    cursor: pointer;
+    color: red;
+    background-color: white;
+    border-radius: 10px;
+}
