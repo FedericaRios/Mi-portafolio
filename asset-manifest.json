@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Mi-portafolio/static/css/main.7cf644e0.css",
+    "main.js": "/Mi-portafolio/static/js/main.a00249af.js",
+    "static/media/me.png": "/Mi-portafolio/static/media/me.11d5ed3e33ee84947f16.png",
+    "static/media/clima.png": "/Mi-portafolio/static/media/clima.9c74c162e92994db0bb8.png",
+    "static/media/todos.png": "/Mi-portafolio/static/media/todos.b6256f23fbc85c237859.png",
+    "static/media/saludar.png": "/Mi-portafolio/static/media/saludar.3728684e3fc3b4cb4235.png",
+    "static/media/background.webp": "/Mi-portafolio/static/media/background.e3d9feb6d013d6818061.webp",
+    "index.html": "/Mi-portafolio/index.html",
+    "main.7cf644e0.css.map": "/Mi-portafolio/static/css/main.7cf644e0.css.map",
+    "main.a00249af.js.map": "/Mi-portafolio/static/js/main.a00249af.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7cf644e0.css",
+    "static/js/main.a00249af.js"
+  ]
+}
