@@ -79,29 +79,35 @@
 .js-image:hover {
     border: 2px solid #122562;
     box-shadow: 1px 1px 35px 1px white;
+    transition: all 0.2s;
 }
 
 .html-image:hover {
     border: 2px solid #122562;
     box-shadow: 1px 1px 35px 1px white;
+    transition: all 0.2s;
 }
 
 .css-image:hover {
     border: 2px solid #122562;
     box-shadow: 1px 1px 35px 1px white;
+    transition: all 0.2s;
 }
 
 .react-image:hover {
     border: 2px solid #122562;
     box-shadow: 1px 1px 35px 1px white;
+    transition: all 0.2s;
 }
 
 .git-image:hover {
     border: 2px solid #122562;
     box-shadow: 1px 1px 35px 1px white;
+    transition: all 0.2s;
 }
 
 .npm-image:hover {
     border: 2px solid #122562;
     box-shadow: 1px 1px 35px 1px white;
+    transition: all 0.2s;
 }

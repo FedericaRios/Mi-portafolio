@@ -1,60 +1,77 @@
 .container {
     width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
+    height: 25%;
+
     color: white;
-
-
-    transition: all .5s ease;
-    transform: translateX(0%);
+    /* border: 2px solid rgb(24, 160, 115); */
 }
 
-.projects-Todos-container {
-    height: 85%;
+.carrousel-container {
+    /* border: 3px solid rgb(74, 24, 189); */
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-item-container {
+    /* border: 2px solid black; */
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.project-Todos-container {
+    /* border: 2px solid orange; */
+    height: 100%;
     width: 100%;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: cadetblue; */
 }
 
 .project-Todos-img-container {
-    width: 50%;
-    height: 95%;
+    width: 40%;
+    height: 80%;
     display: flex;
-    align-items: end;
+    align-items: center;
     justify-content: center;
+    /* background-color: aqua; */
 }
 
-img {
-    width: 60%;
+.project-Todos-img {
+    width: 70%;
     height: 80%;
     border-radius: 10px;
     cursor: pointer;
 }
 
 .proyect-Todos-description {
-    width: 50%;
+    width: 45%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
+    /* background-color: blueviolet; */
 }
 
-h3 {
-    width: 80%;
+h1 {
+    font-size: 35px;
 }
 
-.button-container {
-    width: 100%;
-    height: 15%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-evenly;
+.proyect-Todos-description>h3 {
+    font-size: 25px;
+    width: 60%;
+
 }
 
 .buttons {
+    /* position: relative;
+    top: 50%; */
     border-radius: 5px;
     padding: 10px;
     display: flex;
@@ -65,6 +82,10 @@ h3 {
     border: 1px solid #122562;
     color: #122562;
     background-color: gainsboro;
+}
+
+a {
+    opacity: 1 !important;
 }
 
 .project-Todos-img:hover {
@@ -81,9 +102,9 @@ h3 {
 
 /* clima */
 
-.projects-Clima-container {
+.project-Clima-container {
     height: 85%;
-    width: 50%;
+    width: 100%;
     display: flex;
 }
 
@@ -95,9 +116,9 @@ h3 {
     justify-content: center;
 }
 
-img {
-    width: 60%;
-    height: 80%;
+.project-Clima-img {
+    width: 30%;
+    height: 30%;
     border-radius: 10px;
     cursor: pointer;
 }
@@ -114,4 +135,14 @@ img {
 
 h3 {
     width: 80%;
+}
+
+
+@media (min-width: 768px) {
+
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 100%;
+    }
 }
