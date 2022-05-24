@@ -1,7 +1,7 @@
 .skills-container {
-    border: 1px solid red;
     width: 100%;
     height: 25%;
+    padding-top: 4%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,9 +26,9 @@
     width: 70%;
     height: 75%;
     cursor: pointer;
-    background-color: yellow;
+    background-color: white;
+    color: rgb(255, 238, 0);
     border-radius: 10px;
-    color: black;
 }
 
 .html-image {
@@ -74,4 +74,34 @@
     color: red;
     background-color: white;
     border-radius: 10px;
+}
+
+.js-image:hover {
+    border: 2px solid #122562;
+    box-shadow: 1px 1px 35px 1px white;
+}
+
+.html-image:hover {
+    border: 2px solid #122562;
+    box-shadow: 1px 1px 35px 1px white;
+}
+
+.css-image:hover {
+    border: 2px solid #122562;
+    box-shadow: 1px 1px 35px 1px white;
+}
+
+.react-image:hover {
+    border: 2px solid #122562;
+    box-shadow: 1px 1px 35px 1px white;
+}
+
+.git-image:hover {
+    border: 2px solid #122562;
+    box-shadow: 1px 1px 35px 1px white;
+}
+
+.npm-image:hover {
+    border: 2px solid #122562;
+    box-shadow: 1px 1px 35px 1px white;
 }

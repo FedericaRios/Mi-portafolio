@@ -1,4 +1,4 @@
-import { IoLogoJavascript } from "react-icons/io";
+import { DiJavascript } from "react-icons/di";
 import { IoLogoHtml5 } from "react-icons/io";
 import { IoLogoCss3 } from "react-icons/io";
 import { FaGitAlt } from "react-icons/fa";
@@ -11,7 +11,7 @@ const Skills = () => {
     return (
         <div className="skills-container" id='skills'>
             <div className="skills-item">
-                <IoLogoJavascript className="js-image" />
+                <DiJavascript className="js-image" />
                 JavasCript
             </div>
             <div className="skills-item">
