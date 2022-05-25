@@ -7,7 +7,7 @@ import style from './styles.css';
 const Contact = () => {
 
     return (
-        <div className="contact-container" id='contact'>
+        <div className="contact-container" id='/home#contact'>
             <div className="contacts-container">
                 <span><SiWhatsapp className="iconos" /> 2613058035</span>
                 <span onClick={() => window.open('https://www.linkedin.com/in/federica-rios-bb9ab4197/')}

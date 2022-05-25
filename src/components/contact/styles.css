@@ -26,8 +26,3 @@ span {
     width: 10%;
     height: 50%;
 }
-
-.enlace-in:hover {
-    cursor: pointer;
-    color: #122562;
-}

@@ -9,7 +9,7 @@ import styles from './styles.css';
 const Skills = () => {
 
     return (
-        <div className="skills-container" id='skills'>
+        <div className="skills-container" id='/home#skills'>
             <div className="skills-item">
                 <DiJavascript className="js-image" />
                 JavasCript

@@ -22,7 +22,7 @@
     height: 100%;
 }
 
-.project-Todos-container {
+.project-item-container {
     /* border: 2px solid orange; */
     height: 100%;
     width: 100%;
@@ -32,7 +32,7 @@
     /* background-color: cadetblue; */
 }
 
-.project-Todos-img-container {
+.project-item-img-container {
     width: 40%;
     height: 80%;
     display: flex;
@@ -41,21 +41,21 @@
     /* background-color: aqua; */
 }
 
-.project-Todos-img {
+.project-item-img {
     width: 70%;
     height: 80%;
     border-radius: 10px;
     cursor: pointer;
 }
 
-.proyect-Todos-description {
+.proyect-item-description {
     width: 45%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    text-align: left;
+    text-align: center;
     /* background-color: blueviolet; */
 }
 
@@ -63,9 +63,9 @@ h1 {
     font-size: 35px;
 }
 
-.proyect-Todos-description>h3 {
+.proyect-item-description>h3 {
     font-size: 25px;
-    width: 60%;
+    width: 70%;
 
 }
 
@@ -88,7 +88,7 @@ a {
     opacity: 1 !important;
 }
 
-.project-Todos-img:hover {
+.project-item-img:hover {
     border: 2px solid #122562;
     box-shadow: 1px 1px 25px 0px white;
 }
@@ -97,44 +97,6 @@ a {
     border: 1px solid rgb(255, 255, 255);
     background-color: #122562;
     color: white;
-}
-
-
-/* clima */
-
-.project-Clima-container {
-    height: 85%;
-    width: 100%;
-    display: flex;
-}
-
-.project-Clima-img-container {
-    width: 50%;
-    height: 95%;
-    display: flex;
-    align-items: end;
-    justify-content: center;
-}
-
-.project-Clima-img {
-    width: 30%;
-    height: 30%;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.proyect-Clima-description {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
-
-h3 {
-    width: 80%;
 }
 
 

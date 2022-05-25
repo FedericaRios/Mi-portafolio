@@ -1,12 +1,11 @@
-import { AiFillGithub } from "react-icons/ai";
-import { AiFillLinkedin } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin, AiOutlineIdcard } from "react-icons/ai";
 import Me from '../../assets/me.png';
 import styles from './styles.css';
 
 const AboutMe = () => {
 
     return (
-        <div className="about-me-container" id='aboutMe'>
+        <div className="about-me-container" id='/home#aboutMe'>
             <div className="image-container">
                 <img className="image" src={Me} ></img>
             </div>
@@ -18,14 +17,22 @@ const AboutMe = () => {
                     <h1
                         className="about-me-pages"
                         onClick={() => window.open('https://github.com/FedericaRios')}>
-                        <AiFillGithub /> </h1>
+                        <AiFillGithub />
+                    </h1>
                     <h1
                         className="about-me-pages"
                         onClick={() => window.open('https://www.linkedin.com/in/federica-rios-bb9ab4197/')}>
-                        <AiFillLinkedin /></h1>
+                        <AiFillLinkedin />
+                    </h1>
+                    <h1
+                        className="about-me-pages"
+                        onClick={() => window.open('https://www.linkedin.com/in/federica-rios-bb9ab4197/')}>
+                        <a download href='https://drive.google.com/uc?export=download&id=1SvOVRSgBD-TaH6arcwd5TiytPjAtBR2p'><AiOutlineIdcard /></a>
+
+                    </h1>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 
