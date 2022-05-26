@@ -71,13 +71,13 @@
     cursor: pointer;
     border: 1px solid #122562;
     color: #122562;
-    background-color: #d7d7a8;
+    background-color: white;
 }
 
 .presentation-button:hover {
-    border: 1px solid #c8c8b8;
+    border: 1px solid white;
     background-color: #122562;
-    color: #c8c8b8;
+    color: white;
 }
 
 @media (max-width: 530px) {
@@ -88,6 +88,9 @@
 
     .presentation-me>h2 {
         font-size: 25px;
+    }
 
+    .presentation-button {
+        padding: 10%;
     }
 }

@@ -1,17 +1,15 @@
 .skills-container {
     width: 100%;
     height: 25%;
-    padding-top: 4%;
     display: flex;
     justify-content: center;
     align-items: center;
     display: grid;
-    grid-column-gap: 5%;
-    grid-row-gap: 5%;
-    grid-template-columns: repeat(3, 20%);
+    grid-template-columns: repeat(5, 20%);
 }
 
 .skills-item {
+    margin-top: 25%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,7 +23,6 @@
 .js-image {
     width: 70%;
     height: 75%;
-    cursor: pointer;
     background-color: white;
     color: rgb(255, 238, 0);
     border-radius: 10px;
@@ -34,7 +31,6 @@
 .html-image {
     width: 70%;
     height: 75%;
-    cursor: pointer;
     color: rgb(255, 102, 0);
     background-color: white;
     border-radius: 10px;
@@ -43,7 +39,6 @@
 .css-image {
     width: 70%;
     height: 75%;
-    cursor: pointer;
     color: rgb(0, 119, 255);
     background-color: white;
     border-radius: 10px;
@@ -52,7 +47,6 @@
 .react-image {
     width: 70%;
     height: 75%;
-    cursor: pointer;
     background-color: white;
     color: rgb(0, 195, 255);
     border-radius: 10px;
@@ -61,7 +55,6 @@
 .git-image {
     width: 70%;
     height: 75%;
-    cursor: pointer;
     background-color: white;
     color: rgb(255, 51, 0);
     border-radius: 10px;
@@ -70,8 +63,35 @@
 .npm-image {
     width: 70%;
     height: 75%;
-    cursor: pointer;
     color: red;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.redux-image {
+    width: 70%;
+    height: 75%;
+    color: blueviolet;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.node-image {
+    width: 70%;
+    height: 75%;
+    color: rgb(127, 201, 42);
+    background-color: white;
+    border-radius: 10px;
+}
+
+.express-image {
+    width: 70%;
+    height: 75%;
+    font-size: 50px;
+    color: rgb(22, 21, 21);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: white;
     border-radius: 10px;
 }
@@ -112,8 +132,79 @@
     transition: all 0.2s;
 }
 
-/* @media (max-width: 530px) {
-    .presentation-container {
-        width: 100%;
-        height: 100%;
+.redux-image:hover {
+    border: 2px solid #122562;
+    box-shadow: 1px 1px 35px 1px white;
+    transition: all 0.2s;
+}
+
+.node-image:hover {
+    border: 2px solid #122562;
+    box-shadow: 1px 1px 35px 1px white;
+    transition: all 0.2s;
+}
+
+.express-image:hover {
+    border: 2px solid #122562;
+    box-shadow: 1px 1px 35px 1px white;
+    transition: all 0.2s;
+}
+
+@media (max-width: 530px) {
+
+    .skills-container {
+        display: grid;
+        grid-template-columns: repeat(3, 25%);
+    }
+
+    .js-image {
+        width: 85%;
+        height: 30%;
+    }
+
+    .html-image {
+        width: 85%;
+        height: 30%;
+    }
+
+    .css-image {
+        width: 85%;
+        height: 30%;
+    }
+
+    .react-image {
+        width: 85%;
+        height: 30%;
+    }
+
+    .git-image {
+        width: 85%;
+        height: 30%;
+    }
+
+    .npm-image {
+        width: 85%;
+        height: 30%;
+    }
+
+    .redux-image {
+        width: 85%;
+        height: 30%;
+    }
+
+    .node-image {
+        width: 85%;
+        height: 30%;
+    }
+
+    .express-image {
+        width: 85%;
+        height: 30%;
+        font-size: 15px;
+    }
+
+    /* .skills-item {
+        width: 85%;
+        height: 30%;
     } */
+}

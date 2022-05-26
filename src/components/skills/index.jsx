@@ -1,9 +1,7 @@
 import { DiJavascript } from "react-icons/di";
-import { IoLogoHtml5 } from "react-icons/io";
-import { IoLogoCss3 } from "react-icons/io";
-import { FaGitAlt } from "react-icons/fa";
-import { FaReact } from "react-icons/fa";
-import { IoLogoNpm } from "react-icons/io";
+import { IoLogoHtml5, IoLogoCss3, IoLogoNpm, IoLogoNodejs } from "react-icons/io";
+import { FaGitAlt, FaReact } from "react-icons/fa";
+import { SiRedux } from "react-icons/si";
 import styles from './styles.css';
 
 const Skills = () => {
@@ -34,6 +32,19 @@ const Skills = () => {
                 <IoLogoNpm className="npm-image" />
                 Npm
             </div>
+            <div className="skills-item">
+                <SiRedux className="redux-image" />
+                Redux
+            </div>
+            <div className="skills-item">
+                <IoLogoNodejs className="node-image" />
+                Node
+            </div>
+            <div className="skills-item">
+                <h1 className="express-image">express</h1>
+                Express
+            </div>
+
         </div >
     )
 }

@@ -34,7 +34,24 @@ a {
 }
 
 a:hover {
-    /* color: #122562; */
     transform: scale(1.1);
     transition: all 0.5s;
+}
+
+@media (max-width: 530px) {
+    .nav-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-right: 10px;
+    }
+
+    .nav-menu ul {
+        width: 100%;
+        margin-right: 10px;
+    }
+
+    .nav-menu {
+        justify-content: start;
+    }
 }

@@ -27,7 +27,7 @@ const Project = () => {
                         <div className="proyect-item-description">
                             <h1>ToDos App</h1>
                             <h3>
-                                La app permite gestionar actividades diarias, la desarrollé junto al curso de React en Platzi.
+                                Permite gestionar actividades diarias, la desarrollé junto al curso de React en Platzi.
                                 Utilicé las tecnologías de React, JavasCript, Html, Css,
                                 y Responsive Desing por lo cual está disponible en mobile/celular y desktop.
                                 Por último, para hacer deploy/publicarlo utilicé GitHub-pages.
@@ -48,10 +48,10 @@ const Project = () => {
                         <div className="proyect-item-description">
                             <h1>Wheater App</h1>
                             <h3>
-                                La app permite consultar el pronóstico de ciudades, para lo cual se utilizó una Api,
-                                además, las tecnologías de React, JavasCript, Html, Css,
-                                y Responsive Desing.
-                                Por último, realicé deploy/publicarlo con GitHub-pages.
+                                Permite consultar el pronóstico de ciudades. La desarrollé
+                                consumiendo una Api, utilizando las tecnologías de React, JavasCript,
+                                Html, Css, y aplicando Responsive Desing.
+                                Por último, realicé deploy con GitHub-pages.
                             </h3>
                         </div>
                     </div>
@@ -69,7 +69,7 @@ const Project = () => {
                         <div className="proyect-item-description">
                             <h1>Pokemon App</h1>
                             <h3>
-                                El proyecto brinda información sobre el pokemon que se desee buscar, gracias al consumo de
+                                Brinda información sobre el pokemon que se desee buscar, gracias al consumo de
                                 una Api. Las tecnologías utilizadas fueron React, JavasCript, Html, Css,
                                 y Responsive Desing.
                                 La app se encuentra deployada con GitHub-pages.
