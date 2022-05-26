@@ -29,7 +29,7 @@ const Project = () => {
                             <h3>
                                 Permite gestionar actividades diarias, la desarrollé junto al curso de React en Platzi.
                                 Utilicé las tecnologías de React, JavasCript, Html, Css,
-                                y Responsive Desing por lo cual está disponible en mobile/celular y desktop.
+                                y Responsive Design por lo cual está disponible en mobile/celular y desktop.
                                 Por último, para hacer deploy/publicarlo utilicé GitHub-pages.
                             </h3>
                         </div>
@@ -50,7 +50,7 @@ const Project = () => {
                             <h3>
                                 Permite consultar el pronóstico de ciudades. La desarrollé
                                 consumiendo una Api, utilizando las tecnologías de React, JavasCript,
-                                Html, Css, y aplicando Responsive Desing.
+                                Html, Css, y aplicando Responsive Design.
                                 Por último, realicé deploy con GitHub-pages.
                             </h3>
                         </div>
@@ -71,7 +71,7 @@ const Project = () => {
                             <h3>
                                 Brinda información sobre el pokemon que se desee buscar, gracias al consumo de
                                 una Api. Las tecnologías utilizadas fueron React, JavasCript, Html, Css,
-                                y Responsive Desing.
+                                y Responsive Design.
                                 La app se encuentra deployada con GitHub-pages.
                             </h3>
                         </div>

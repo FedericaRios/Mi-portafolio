@@ -10,7 +10,7 @@ const AboutMe = () => {
                 <img className="image" src={Me} ></img>
             </div>
             <div className="about-me-presentation">
-                <h1 className="about-me">About me</h1>
+                <h1 className="about-me">Sobre mí</h1>
                 <h3>Soy una persona sociable, empatica, y me considero exigente, ya que me gusta retarme en los objetivos que me planteo.
                     Me encanta aprender cosas nuevas y conocer nuevas personas. En mis tiempos libres aprecio salir a disfrutar de la naturaleza, escuchar música, hacer ejercicio y leer libros de mi interés.</h3>
                 <div className="about-me-pages-container">
