@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Mi-portafolio/static/css/main.4fbb058c.css",
-    "main.js": "/Mi-portafolio/static/js/main.1b8067d0.js",
+    "main.css": "/Mi-portafolio/static/css/main.1cb744db.css",
+    "main.js": "/Mi-portafolio/static/js/main.e5ef40db.js",
     "static/media/me.png": "/Mi-portafolio/static/media/me.11d5ed3e33ee84947f16.png",
     "static/media/pokemon.png": "/Mi-portafolio/static/media/pokemon.7f94aeef452a35b72f71.png",
     "static/media/clima.png": "/Mi-portafolio/static/media/clima.9c74c162e92994db0bb8.png",
@@ -9,11 +9,11 @@
     "static/media/saludar.png": "/Mi-portafolio/static/media/saludar.3728684e3fc3b4cb4235.png",
     "static/media/background.webp": "/Mi-portafolio/static/media/background.e3d9feb6d013d6818061.webp",
     "index.html": "/Mi-portafolio/index.html",
-    "main.4fbb058c.css.map": "/Mi-portafolio/static/css/main.4fbb058c.css.map",
-    "main.1b8067d0.js.map": "/Mi-portafolio/static/js/main.1b8067d0.js.map"
+    "main.1cb744db.css.map": "/Mi-portafolio/static/css/main.1cb744db.css.map",
+    "main.e5ef40db.js.map": "/Mi-portafolio/static/js/main.e5ef40db.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fbb058c.css",
-    "static/js/main.1b8067d0.js"
+    "static/css/main.1cb744db.css",
+    "static/js/main.e5ef40db.js"
   ]
 }
